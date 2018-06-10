@@ -104,12 +104,27 @@ class Verification extends React.Component {
         if (!this.state.data) {
             return (
                 <div>
-                    <p>
-                        You have a change of ${this.state.change}
-                    </p>
-                    <Button size="small" color="primary" onClick={this.verifyAccount}>
-                        Top Up To Customer Wallet
-                    </Button>
+                    <div style={{textAlign: 'center', marginTop: '20px'}}>
+                        <p style={{fontSize: '40px'}}>
+                            You have a spare change of
+                        </p>
+                        <p style={{fontSize: '80px'}}>
+                            ${this.state.change}
+                        </p>
+                    </div>
+
+                    <div style={{textAlign: 'center'}}>
+                        <Button size="medium" style={{ fontSize: '40px'}} color="primary" onClick={this.verifyAccount}>
+                            Save to my coriunder wallet
+                        </Button>
+                    </div>
+
+                    <div style={{textAlign: 'center'}}>
+                        <Button size="medium" style={{ fontSize: '35px'}} color="primary" onClick={this.verifyAccount}>
+                            Get back the cash
+                        </Button>
+                    </div>
+
                 </div>
             )
 

@@ -83,7 +83,7 @@ class Base extends React.Component {
                     </h1>
 
                     {Auth.isUserAuthenticated() ? (
-                        <div style={{float: 'right', width: '400px'}}>
+                        <div style={{float: 'right', width: '400px', height: '60px'}}>
                             <p style={styles.navbar}>
                                 <i className="fa fa-user user-icon" aria-hidden="true"></i>
                                 Merchant: 5722306

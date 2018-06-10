@@ -23,7 +23,7 @@ export const TableList = () => (
         <TableBody>
             <TableRow>
                 <TableRowColumn>1</TableRowColumn>
-                <TableRowColumn>Apple 400g</TableRowColumn>
+                <TableRowColumn>Wissebeerger Water Bottle</TableRowColumn>
                 <TableRowColumn>10.40</TableRowColumn>
             </TableRow>
             <TableRow>
@@ -33,17 +33,17 @@ export const TableList = () => (
             </TableRow>
             <TableRow>
                 <TableRowColumn>3</TableRowColumn>
-                <TableRowColumn>Skimmed Milk</TableRowColumn>
+                <TableRowColumn>Samsung Original Earphone</TableRowColumn>
                 <TableRowColumn>10.90</TableRowColumn>
             </TableRow>
             <TableRow>
                 <TableRowColumn>4</TableRowColumn>
-                <TableRowColumn>Spicy Sausages</TableRowColumn>
+                <TableRowColumn>GoPro Camera Accessory Kit</TableRowColumn>
                 <TableRowColumn>32.10</TableRowColumn>
             </TableRow>
             <TableRow>
                 <TableRowColumn>5</TableRowColumn>
-                <TableRowColumn>Cauliflower 400g</TableRowColumn>
+                <TableRowColumn>Echo Dot (2nd Generation) - Smart speaker - Black</TableRowColumn>
                 <TableRowColumn>13.30</TableRowColumn>
             </TableRow>
         </TableBody>

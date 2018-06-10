@@ -28,7 +28,7 @@ class StartPage extends React.Component {
 
     render(){
         return (
-            <div>
+            <div  style={{marginTop: '30px'}}>
                 <TableList/>
 
                 <SumRow />
