@@ -74,7 +74,7 @@ class Base extends React.Component {
 
         return (
             <div>
-                <header id='header' style={{ marginBottom: '0px' }}>
+                <header id='header' style={{ marginBottom: '0px', backgroundColor: 'green' }}>
                     <h1>
                         <a href='/'>
                             CoriPurse
