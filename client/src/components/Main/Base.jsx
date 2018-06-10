@@ -77,7 +77,7 @@ class Base extends React.Component {
                 <header id='header' style={{ marginBottom: '0px' }}>
                     <h1>
                         <a href='/'>
-                            ExpressID
+                            CoriPurse
                             <abbr></abbr>
                         </a>
                     </h1>
@@ -115,7 +115,7 @@ class Base extends React.Component {
                 </div>
 
                 <footer className='footer'>
-                    ExpressID - Verification make simpler
+                    CoriPurse- Verification make simpler
                 </footer>
 
             </div>

@@ -9,6 +9,7 @@ import Checkout from './components/Main/Checkout.jsx';
 import FindProductButton from './components/Main/FindProductButton.jsx';
 import Payment from './components/Items/Pay.jsx';
 import Verification from './components/Items/Verify.jsx';
+import StartPage from './components/Main/StartPage.jsx';
 
 
 const routes = {
@@ -17,6 +18,10 @@ const routes = {
         childRoutes: [
             {
                 path: '/',
+                component: StartPage
+            },
+            {
+                path: '/verify',
                 component: Verification
             },
             {

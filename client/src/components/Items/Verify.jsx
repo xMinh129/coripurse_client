@@ -11,7 +11,8 @@ class Verification extends React.Component {
             data: false,
             loadData: false,
             numberOfVerification: 0,
-            name: ""
+            name: "",
+            change: this.props.location.state.change
         };
         this.verifyAccount = this.verifyAccount.bind(this);
         this.retrieveAccount = this.retrieveAccount.bind(this);
@@ -90,9 +91,6 @@ class Verification extends React.Component {
 
 
     componentDidMount() {
-        this.setState({
-
-        })
     }
 
     componentWillUnmount() {
@@ -100,11 +98,18 @@ class Verification extends React.Component {
     }
 
     render() {
+        console.log('displaying this.props.location.state.random')
+        console.log(this.state.change)
+
         if (!this.state.data) {
             return (
                 <div>
-                    <Button size="small" color="primary" onClick={this.verifyAccount}>Top Up To Customer Wallet</Button>
-                    <Button size="small" color="primary" onClick={this.verifyAccount}>Request Traction From Customer</Button>
+                    <p>
+                        You have a change of ${this.state.change}
+                    </p>
+                    <Button size="small" color="primary" onClick={this.verifyAccount}>
+                        Top Up To Customer Wallet
+                    </Button>
                 </div>
             )
 
